@@ -14,7 +14,7 @@ module.exports =    mongoose.connect(
 
 // var MongoClient = require('mongodb').MongoClient;
 
-// var uri = "mongodb://wcmadmin:bielsh01@cluster0-shard-00-00-el8so.mongodb.net:27017,cluster0-shard-00-01-el8so.mongodb.net:27017,cluster0-shard-00-02-el8so.mongodb.net:27017/mymoney?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true&w=majority";
+// var uri = "mongodb://meulogin:Minhasenha@cluster0-shard-00-00-el8so.mongodb.net:27017,cluster0-shard-00-01-el8so.mongodb.net:27017,cluster0-shard-00-02-el8so.mongodb.net:27017/mymoney?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true&w=majority";
 // module.exports =   MongoClient.connect(uri) 
 
 mongoose.Error.messages.general.required = "O atributo '{PATH}' é obrigatório."
